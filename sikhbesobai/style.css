@@ -1,0 +1,52 @@
+.background{
+	height: 630px;
+	width: 800px;
+	background-color: #605CA9;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.contact-form {
+    position: relative;
+    top: 30px;
+    left: 183px;
+    bottom: 30px;
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    padding: 30px 20px;
+    border-radius: 3px;
+}
+
+.contact-form{
+	text-align: center;
+	text-transform: uppercase;
+}
+body{
+	padding: 0;
+	margin: 0 auto;
+}
+
+input {
+    padding: 10px 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+textarea {
+    padding: 10px 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button {
+    float: right;
+    margin-right: 35px;
+    padding: 5px 30px;
+    background-color: #23D62D;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 16px;
+    color: #fff;
+}
