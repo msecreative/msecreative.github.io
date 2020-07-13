@@ -1,10 +1,15 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
 .background{
-	height: 630px;
-	width: 800px;
-	background-color: #605CA9;
-	position: relative;
-	margin: 0 auto;
-	border-radius: 10px;
+    height: 630px;
+    width: 800px;
+    background-color: #605CA9;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .contact-form {
@@ -20,13 +25,10 @@
 }
 
 .contact-form{
-	text-align: center;
-	text-transform: uppercase;
+    text-align: center;
+    text-transform: uppercase;
 }
-body{
-	padding: 0;
-	margin: 0 auto;
-}
+
 
 input {
     padding: 10px 10px;
@@ -49,4 +51,101 @@ button {
     border-color: transparent;
     font-size: 16px;
     color: #fff;
+}
+
+
+/*Cv section Css*/
+.cv{
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #000;
+}
+.col-4{
+    width: 30%;
+    color: #000;
+    background-color: #F4F4F4;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.col-8 {
+    width: 60%;
+    color: #000;
+    background-color: #F4F4F4;
+    float: right;
+    padding: 0px 30px 25px 30px;
+    text-align: justify;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    padding-left: 20px;
+}
+.info {
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.info h3 {
+    background: #ddd;
+    font-size: 25px;
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skill {
+    padding: 20px;
+    text-align: justify;
+}
+
+.skill h3 {
+    background: #ddd;
+    font-size: 25px;
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.skill li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.skill li p {
+    background: #000;
+    height: 4px;
+    width: 100px;
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 7px 0px;
+    border-radius: 37px;
+}
+
+span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.maininfo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.maininfo p {
+    padding: 0;
+    margin: 0 !important;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.expert h2 {
+    background: #ddd;
+    padding: 5px 10px;
+    text-transform: uppercase;
 }
