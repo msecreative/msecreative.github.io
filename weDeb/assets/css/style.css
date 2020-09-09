@@ -1,0 +1,124 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #c7ecee
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #7ed6df
+}
+
+.main{
+    width: 100%;
+    height: 400px;
+}
+
+.content{
+    width: 67%;
+    height: 100%;
+    float: left;
+    background: #efefef;
+}
+.main .content section{
+    width: 100%;
+    height: 100%
+}
+
+.sidebar{
+    width: 33%;
+    height: 100%;
+    float: right
+}
+
+.first{
+    height: 200px;
+    width: 200px;
+    background: #dddd;
+    position: relative
+}
+
+.second{
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
+footer{
+    width: 100%;
+    height:60px;
+    background: #c7ecee
+}
+
+
+.flag-area-start{
+    margin: auto 50px;
+    height: 240px;
+    width: 400px;
+    background: green;
+    position: relative
+    
+}
+.red-area{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+.flag-area-start:before {
+    height: 450px;
+    width: 20px;
+    background: orange;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    content: '';
+}
+.flag-area-start:after {
+    position: absolute;
+    content: '';
+    background: black;
+    height: 70px;
+    width: 100px;
+    bottom: -210px;
+    left: -40px;
+    z-index: 5;
+    border-radius: 5px;
+}
+
+.flag-rope {
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background: brown;
+    top: 0px;
+    left: -94px;
+    z-index: 5;
+    border-radius: 20px;
+}
+.flag-rope2 {
+    position: absolute;
+    height: 5px;
+    width: 30px;
+    background: brown;
+    top: 155px;
+    left: -94px;
+    z-index: 5;
+    border-radius: 20px;
+}
+
+

@@ -1,6 +1,0 @@
-<?php 
-
-//Siclence is Golden
-
-
- ?>
