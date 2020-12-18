@@ -1,0 +1,125 @@
+@media only screen and (min-width: 992px) {
+	/*****hover*****/
+	.nav-link:after,
+	.nav-link.active:after{
+	  content: '';
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  bottom: 0;
+	  left: 0;
+	  background-color: #ff6633;
+	  transform: scaleX(0);
+	  transform-origin: bottom right;
+	  transition: transform 0.3s;
+	}
+
+	.nav-link.active:after,
+	.nav-link:hover:after {
+	  transform-origin: bottom left;
+	  transform: scaleX(1);
+	}
+}
+@media only screen and (max-width: 992px){
+	.main-nav {
+    	background: #333;
+	}
+	.navbar-toggler span {
+    	color: #eee;
+	}
+	.navbar-light .navbar-toggler {
+    	border-color: #ccc;
+	}
+	.nav-item .nav-link {
+    	border-bottom: 1px solid #3c3c3c;
+	}
+}
+@media only screen and (max-width: 768px){
+    .service-item{
+        margin-bottom: 30px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 320px){
+	#header h1 {
+	    font-size: 2.5rem;
+	    margin: 0;
+	}
+	.skill-content,
+	.counter-item,
+	.co_item {
+	    margin-top: 2rem;
+	}
+	figure.snip1167 blockquote {
+   		padding: 60px 58px 38px 58px;
+	}
+	.snip1584 h5{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	#header h1 {
+	    font-size: 2.5rem;
+	    margin: 12px 0;
+	}
+	.skill-content,
+	.counter-item,
+	.co_item {
+	    margin-top: 2rem;
+	}
+	figure.snip1167 blockquote {
+   		padding: 60px 58px 38px 58px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px){
+	#header h1 {
+	    font-size: 2.5rem;
+	    margin: 0;
+	}
+	[class^="btn-"]{
+		margin-top: 1%;
+	}
+	.skill-content,
+	.counter-item,
+	.co_item {
+	    margin-top: 2rem;
+	}
+	figure.snip1167 blockquote {
+   		padding: 60px 58px 38px 58px;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 768px){
+	#header h1 {
+	    font-size: 3rem;
+	    margin: 0;
+	}
+	[class^="btn-"]{
+		margin-top: 3%;
+	}
+	.skill-content,
+	.counter-item,
+	.co_item {
+	    margin-top: 2rem;
+	}
+	figure.snip1167 blockquote {
+   		padding: 60px 58px 38px 58px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width:992px) {
+	#header h1 {
+	    font-size: 4rem;
+	    margin: 0.8rem 0;
+	}
+	[class^="btn-"]{
+		margin-top: 8%;
+	}
+	.skill-content,
+	.counter-item{
+		margin-top: 2rem;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 1200px){}
